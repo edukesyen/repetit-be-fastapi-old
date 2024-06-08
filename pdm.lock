@@ -5,7 +5,7 @@
 groups = ["default"]
 strategy = ["cross_platform", "inherit_metadata"]
 lock_version = "4.4.1"
-content_hash = "sha256:cb7b45e55c4813324e60bca1409a57ecc4649e858f1cdd7e0251a4eb61166654"
+content_hash = "sha256:427b2af95aab58776e90e66f19b11e937de20d11e121eacb898c5608154c5c00"
 
 [[package]]
 name = "annotated-types"
@@ -146,6 +146,17 @@ dependencies = [
 files = [
     {file = "fastapi_cli-0.0.4-py3-none-any.whl", hash = "sha256:a2552f3a7ae64058cdbb530be6fa6dbfc975dc165e4fa66d224c3d396e25e809"},
     {file = "fastapi_cli-0.0.4.tar.gz", hash = "sha256:e2e9ffaffc1f7767f488d6da34b6f5a377751c996f397902eb6abb99a67bde32"},
+]
+
+[[package]]
+name = "fsrs"
+version = "2.1.1"
+requires_python = ">=3.9"
+summary = "Free Spaced Repetition Scheduler"
+groups = ["default"]
+files = [
+    {file = "fsrs-2.1.1-py3-none-any.whl", hash = "sha256:e901aa6e5ca111f0e2541fddbffa0d6022a365b9b3c0e3f1d1a1b2de904daa93"},
+    {file = "fsrs-2.1.1.tar.gz", hash = "sha256:400e1ab5dfb6c595b46d83977f2bbf0581aac4d6394c5e363e85b6b6309966df"},
 ]
 
 [[package]]
