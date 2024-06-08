@@ -5,7 +5,7 @@
 groups = ["default"]
 strategy = ["cross_platform", "inherit_metadata"]
 lock_version = "4.4.1"
-content_hash = "sha256:5d4581e47a1da4fa91f1ec4168ed9eff7a8d0999539fae806c8b1c8c35ec9e86"
+content_hash = "sha256:427b2af95aab58776e90e66f19b11e937de20d11e121eacb898c5608154c5c00"
 
 [[package]]
 name = "annotated-types"
@@ -146,6 +146,17 @@ dependencies = [
 files = [
     {file = "fastapi_cli-0.0.4-py3-none-any.whl", hash = "sha256:a2552f3a7ae64058cdbb530be6fa6dbfc975dc165e4fa66d224c3d396e25e809"},
     {file = "fastapi_cli-0.0.4.tar.gz", hash = "sha256:e2e9ffaffc1f7767f488d6da34b6f5a377751c996f397902eb6abb99a67bde32"},
+]
+
+[[package]]
+name = "fsrs"
+version = "2.1.1"
+requires_python = ">=3.9"
+summary = "Free Spaced Repetition Scheduler"
+groups = ["default"]
+files = [
+    {file = "fsrs-2.1.1-py3-none-any.whl", hash = "sha256:e901aa6e5ca111f0e2541fddbffa0d6022a365b9b3c0e3f1d1a1b2de904daa93"},
+    {file = "fsrs-2.1.1.tar.gz", hash = "sha256:400e1ab5dfb6c595b46d83977f2bbf0581aac4d6394c5e363e85b6b6309966df"},
 ]
 
 [[package]]
@@ -353,6 +364,21 @@ files = [
     {file = "pydantic_core-2.18.3-pp39-pypy39_pp73-musllinux_1_1_x86_64.whl", hash = "sha256:7e6382ce89a92bc1d0c0c5edd51e931432202b9080dc921d8d003e616402efd1"},
     {file = "pydantic_core-2.18.3-pp39-pypy39_pp73-win_amd64.whl", hash = "sha256:ff58f379345603d940e461eae474b6bbb6dab66ed9a851ecd3cb3709bf4dcf6a"},
     {file = "pydantic_core-2.18.3.tar.gz", hash = "sha256:432e999088d85c8f36b9a3f769a8e2b57aabd817bbb729a90d1fe7f18f6f1f39"},
+]
+
+[[package]]
+name = "pydantic-settings"
+version = "2.3.1"
+requires_python = ">=3.8"
+summary = "Settings management using Pydantic"
+groups = ["default"]
+dependencies = [
+    "pydantic>=2.7.0",
+    "python-dotenv>=0.21.0",
+]
+files = [
+    {file = "pydantic_settings-2.3.1-py3-none-any.whl", hash = "sha256:acb2c213140dfff9669f4fe9f8180d43914f51626db28ab2db7308a576cce51a"},
+    {file = "pydantic_settings-2.3.1.tar.gz", hash = "sha256:e34bbd649803a6bb3e2f0f58fb0edff1f0c7f556849fda106cc21bcce12c30ab"},
 ]
 
 [[package]]
